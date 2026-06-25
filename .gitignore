@@ -1,0 +1,30 @@
+build/
+install/
+log/
+devel/
+*.o
+*.a
+*.so
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Gazebo/Ignition models (too large)
+src/astranav_description/models/
+src/astranav_description/photos/
+src/astranav_description/worlds/
+
+# Large files
+*.dae
+*.stl
+*.obj
+*.mtl
+*.pgm
+*.jpg
+*.png
